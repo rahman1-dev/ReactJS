@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f7f092;
+  padding: 0px 20px;
+  /* box-shadow: x-offset y-offset blur spread color; */
+  box-shadow: 0px 2px 40px 2px rgb(158, 157, 157);
+}
+.logo {
+  width: 90px;
+}
+.navElem-conatiner > ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.navElem-conatiner > ul > li {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+.navElem-conatiner > ul > li:hover {
+  color: rgb(115, 105, 105);
+  cursor: pointer;
+}
+.navElem-conatiner {
+  width: 30vw;
+}
+
+.search-container > input {
+  padding: 7px 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  width: 20vw;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.search-container > input::placeholder {
+  font-size: 1rem;
+  font-weight: 500;
+}
