@@ -9,13 +9,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #f7f092;
+  background-color: #f9f185;
   padding: 0px 20px;
   /* box-shadow: x-offset y-offset blur spread color; */
   box-shadow: 0px 2px 40px 2px rgb(158, 157, 157);
 }
 .logo {
   width: 90px;
+}
+.logo:hover {
+  scale: 1.07;
+  transition: scale 0.1s ease-in-out;
 }
 .navElem-conatiner > ul {
   display: flex;
@@ -27,7 +31,7 @@
   font-size: 1.25rem;
 }
 .navElem-conatiner > ul > li:hover {
-  color: rgb(115, 105, 105);
+  color: #ff9000;
   cursor: pointer;
 }
 .navElem-conatiner {
